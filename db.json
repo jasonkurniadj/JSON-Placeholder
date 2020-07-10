@@ -2,7 +2,7 @@
 	"profile": {
 		"name": "test"
 	},
-	"zoom": {
+	"zoom": [
 		"createMeeting": {
 			"request": [
 				{"item": "adminID", "type": "string", "length": 70},
@@ -23,5 +23,5 @@
 				{"item": "linkCreation", "type": "datetime"}
 			]
 		}
-	}
+	]
 }
