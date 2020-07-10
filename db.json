@@ -1,9 +1,10 @@
 {
 	"profile": {
-		"name": "testing"
+		"name": "test"
 	},
 	"zoom": [
 		{
+			"id": "createMeeting",
 			"createMeeting": [
 				{
 					"id": "request",
@@ -32,6 +33,7 @@
 			]
 		},
 		{
+			"id": "updateMeeting",
 			"updateMeeting": [
 				{
 					"id": "request",
@@ -46,7 +48,8 @@
 			]
 		},
 		{
-			"deleteMeeting": [
+			"id": "deleteMeeting",
+			"properties": [
 				{
 					"id": "request",
 					"item": [
