@@ -5,26 +5,32 @@
 	"zoom": [
 		{
 			"id": "createMeeting",
-			"properties": {
-				"request": [
-					{"item": "adminID", "type": "string", "length": 70},
-					{"item": "meetingTitle", "type": "string", "length": 100},
-					{"item": "meetingStart", "type": "datetime"},
-					{"item": "meetingEnd", "type": "datetime"},
-					{"item": "authUserOnly", "type": "boolean"},
-					{"item": "joinBeforeUser", "type": "boolean"}
-				],
-				"response": [
-					{"item": "meetingTitle", "type": "string", "length": 100},
-					{"item": "meetingStart", "type": "datetime"},
-					{"item": "meetingEnd", "type": "datetime"},
-					{"item": "meetingID", "type": "integer"},
-					{"item": "password", "type": "string", "length": 30},
-					{"item": "startURL", "type": "string", "length": 250},
-					{"item": "joinURL", "type": "string", "length": 250},
-					{"item": "creationTime", "type": "datetime"}
-				]
-			}
+			"properties": [
+				{
+					"id": "request",
+					"item": [
+						{"name": "adminID", "type": "string", "length": 70},
+						{"name": "meetingTitle", "type": "string", "length": 100},
+						{"name": "meetingStart", "type": "datetime"},
+						{"name": "meetingEnd", "type": "datetime"},
+						{"name": "authUserOnly", "type": "boolean"},
+						{"name": "joinBeforeUser", "type": "boolean"}
+					]
+				},
+				{
+					"id": "response",
+					"item": [
+						{"item": "meetingTitle", "type": "string", "length": 100},
+						{"item": "meetingStart", "type": "datetime"},
+						{"item": "meetingEnd", "type": "datetime"},
+						{"item": "meetingID", "type": "integer"},
+						{"item": "password", "type": "string", "length": 30},
+						{"item": "startURL", "type": "string", "length": 250},
+						{"item": "joinURL", "type": "string", "length": 250},
+						{"item": "creationTime", "type": "datetime"}
+					]
+				},
+			]
 		}
 	]
 }
