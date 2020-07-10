@@ -11,5 +11,10 @@
   ],
   "profile": {
     "name": "test"
-  }
+  },
+  "zoom": [
+    "adminID",
+    "startDate",
+    "endDate"
+  ]
 }
