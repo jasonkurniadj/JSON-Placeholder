@@ -1,65 +1,44 @@
 {
 	"profile": {
-		"name": "test"
+		"name": "testing"
 	},
 	"zoom": [
 		{
 			"id": "createMeeting",
-			"createMeeting": [
-				{
-					"id": "request",
-					"item": [
-						{"name": "adminID", "type": "string", "length": 70},
-						{"name": "meetingTitle", "type": "string", "length": 100},
-						{"name": "meetingStart", "type": "datetime"},
-						{"name": "meetingEnd", "type": "datetime"},
-						{"name": "authUserOnly", "type": "boolean"},
-						{"name": "joinBeforeUser", "type": "boolean"}
-					]
-				},
-				{
-					"id": "response",
-					"item": [
-						{"item": "meetingTitle", "type": "string", "length": 100},
-						{"item": "meetingStart", "type": "datetime"},
-						{"item": "meetingEnd", "type": "datetime"},
-						{"item": "meetingID", "type": "integer"},
-						{"item": "password", "type": "string", "length": 30},
-						{"item": "startURL", "type": "string", "length": 250},
-						{"item": "joinURL", "type": "string", "length": 250},
-						{"item": "creationTime", "type": "datetime"}
-					]
-				}
+			"method": "POST",
+			"request": [
+				{"name": "adminID", "type": "string", "length": 70},
+				{"name": "meetingTitle", "type": "string", "length": 100},
+				{"name": "meetingStart", "type": "datetime"},
+				{"name": "meetingEnd", "type": "datetime"},
+				{"name": "authUserOnly", "type": "boolean"},
+				{"name": "joinBeforeUser", "type": "boolean"}
+			],
+			"response": [
+				{"item": "meetingTitle", "type": "string", "length": 100},
+				{"item": "meetingStart", "type": "datetime"},
+				{"item": "meetingEnd", "type": "datetime"},
+				{"item": "meetingID", "type": "integer"},
+				{"item": "password", "type": "string", "length": 30},
+				{"item": "startURL", "type": "string", "length": 250},
+				{"item": "joinURL", "type": "string", "length": 250},
+				{"item": "creationTime", "type": "datetime"}
 			]
 		},
 		{
 			"id": "updateMeeting",
-			"updateMeeting": [
-				{
-					"id": "request",
-					"item": [
-					]
-				},
-				{
-					"id": "response",
-					"item": [
-					]
-				}
+			"method": "PUT",
+			"request": [
+			],
+			"response": [
 			]
 		},
 		{
 			"id": "deleteMeeting",
-			"properties": [
-				{
-					"id": "request",
-					"item": [
-					]
-				},
-				{
-					"id": "response",
-					"item": [
-					]
-				}
+			"method": "DELETE",
+			"request": [
+			],
+			"response": [
 			]
 		}
 	]
