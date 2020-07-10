@@ -29,7 +29,37 @@
 						{"item": "joinURL", "type": "string", "length": 250},
 						{"item": "creationTime", "type": "datetime"}
 					]
+				}
+			]
+		},
+		{
+			"id": "updateMeeting",
+			"properties": [
+				{
+					"id": "request",
+					"item": [
+					]
 				},
+				{
+					"id": "response",
+					"item": [
+					]
+				}
+			]
+		},
+		{
+			"id": "deleteMeeting",
+			"properties": [
+				{
+					"id": "request",
+					"item": [
+					]
+				},
+				{
+					"id": "response",
+					"item": [
+					]
+				}
 			]
 		}
 	]
