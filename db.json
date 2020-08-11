@@ -56,7 +56,7 @@
 			"id": "getToken-1",
 			"ResultCode": 40000,
 			"ErrorMessage": "Unknown Error",
-			"Result": ""
+			"Result": "",
 		},
 		{
 			"id": "createLink-0",
