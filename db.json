@@ -41,5 +41,43 @@
 			"response": [
 			]
 		}
+	],
+	"zoom-test": [
+		{
+			"id": "getToken-0",
+			"TokenData": {
+				"Token": "asdf.qwer.zxcv.hjkl",
+				"Duration": 60
+			},
+			"ResultCode": 0,
+			"ErrorMessage": "Success"
+		},
+		{
+			"id": "getToken-1",
+			"ResultCode": 40000,
+			"ErrorMessage": "Unknown Error",
+			"Result": ""
+		},
+		{
+			"id": "createLink-0",
+			"meetingTitle": "CrseCode: CourseTitle - MtgNbr",
+			"meetingStart": "2020-08-12T13:20:00Z",
+			"meetingEnd": "2020-08-12T15:00:00Z",
+			"startUrl": "https://xyz.zoom.us/s/1234567890?asdf.qwer.zxcv.hjkl-1hjA",
+			"joinURL": "https://xyz.zoom.us/s/1234567890",
+			"linkCreationTime": "2020-08-11T13:00:00.1234567+07:00"
+		},
+		{
+			"id": "createLink-1",
+			"ResultCode": 40000,
+			"ErrorMessage": "Unknown Error",
+			"Result": ""
+		},
+		{
+			"id": "createLink-2",
+			"ResultCode": 402,
+			"ErrorMessage": "Client Id is Invalid",
+			"Result": ""
+		}
 	]
 }
