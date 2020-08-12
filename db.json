@@ -47,14 +47,14 @@
 			"id": "getToken-0",
 			"TokenData": {
 				"Token": "asdf.qwer.zxcv.hjkl",
-				"Duration": 60
+				"Duration": "60"
 			},
-			"ResultCode": 0,
+			"ResultCode": "0",
 			"ErrorMessage": "Success"
 		},
 		{
 			"id": "getToken-1",
-			"ResultCode": 40000,
+			"ResultCode": "40000",
 			"ErrorMessage": "Unknown Error",
 			"Result": ""
 		},
@@ -69,13 +69,13 @@
 		},
 		{
 			"id": "createLink-1",
-			"ResultCode": 40000,
+			"ResultCode": "40000",
 			"ErrorMessage": "Unknown Error",
 			"Result": ""
 		},
 		{
 			"id": "createLink-2",
-			"ResultCode": 402,
+			"ResultCode": "402",
 			"ErrorMessage": "Client Id is Invalid",
 			"Result": ""
 		}
