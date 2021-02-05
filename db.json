@@ -63,6 +63,8 @@
 			"meetingTitle": "CrseCode: CourseTitle - MtgNbr",
 			"meetingStart": "2020-08-12T13:20:00Z",
 			"meetingEnd": "2020-08-12T15:00:00Z",
+			"meetingId": "1234567890",
+			"password": "qwerty1234",
 			"startUrl": "https://xyz.zoom.us/s/1234567890?asdf.qwer.zxcv.hjkl-1hjA",
 			"joinURL": "https://xyz.zoom.us/s/1234567890",
 			"linkCreationTime": "2020-08-11T13:00:00.1234567+07:00"
