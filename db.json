@@ -81,5 +81,23 @@
 			"ErrorMessage": "Client Id is Invalid",
 			"Result": ""
 		}
+	],
+	"pdpt-posting-test": [
+		{
+			"id": "getAllCountry-0",
+			"ResultCode": "0",
+			"ResultData": [
+				{
+					"id": "ID",
+					"Id_Wil": "000000",
+					"Country": "Indonesia"
+				},
+				{
+					"id": "AE",
+					"Id_Wil": "AE000000",
+					"Country": "United Arab Emirates"
+				}
+			]
+		}
 	]
 }
