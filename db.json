@@ -85,17 +85,17 @@
 	"pdpt-posting-test": [
 		{
 			"id": "getAllCountry-0",
-			"ResultCode": "0",
-			"ResultData": [
+			"resultCode": "0",
+			"data": [
 				{
-					"id": "ID",
-					"Id_Wil": "000000",
-					"Country": "Indonesia"
+					"id_negara": "ID",
+					"id_wil": "000000",
+					"nm_wil": "Indonesia"
 				},
 				{
-					"id": "AE",
-					"Id_Wil": "AE000000",
-					"Country": "United Arab Emirates"
+					"id_negara": "AE",
+					"id_wil": "AE000000",
+					"nm_wil": "United Arab Emirates"
 				}
 			]
 		}
